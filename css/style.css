@@ -1,6 +1,6 @@
 /*располагаем игру по центру экрана  */
 
 canvas {
-    display: 
-    margin: 0 autho;
+    display: block;
+    margin: 0 auto;
 }
