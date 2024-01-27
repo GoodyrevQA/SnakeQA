@@ -38,7 +38,7 @@ function draw(){
 //Перемещение змеи - этап 1 Обработка нажатия стрелок
 document.addEventListener("keydown", moveSnake);
 function moveSnake(event){
-	if(event.keyCode == 37 || event.keyCode == 65 && snakeDirection != "право"){
+	if((event.keyCode == 37 || event.keyCode == 65) && snakeDirection != "право"){
 		snakeDirection = "лево";
 	} else if(event.keyCode == 38 || event.keyCode == 87 && snakeDirection != "вниз"){
 		snakeDirection = "верх";
